@@ -8,6 +8,6 @@ function myFunc(){
 }
 
 myFunc().then((val)=>{
-	document.getElemenById("output").textContent = val
+	document.getElementById("output").textContent = val
 })
 
